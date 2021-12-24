@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Attendance Verification</title>
+
+        <!----------------------------------firebase------------------------------------------------>
+        <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+    
+        <!-----------------------------------bootsrap----------------------------------------------->
+        <link href="https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap" rel="stylesheet"><meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+         
+</head>
+<body>
+
+    <div id="part1">
+        <h1>Attendance</h1>
+        <p><img id="imgClickAndChange" class="image" alt="No image" src="1.jpeg"  
+                style="height: 300px; width: 300px; margin-left: 15%;"  />
+            
+        <div id="side" class="image"></div>     <!--Firebase retrieve data-->
+        <input type="text" id="remarks">        <!--Input to enter Remarks-->
+        <button id="send">Send</button>         <!--Button to update remarks in firebase-->
+
+<!-------------------------------Buttons-------------------------------->
+
+        <div class="marker1">
+            <button id="button1" class="attendance" >Absent</button>
+
+            <button id="button2" class="attendance" >Present</button>
+        </div>
+        <div class="marker2">
+            <button id="nav" class="nav1" onclick="imageprev()">Previous</button>
+
+            <button id="nav" class="nav2" onclick="imagenext()" >Next</button>
+        </div>
+
+<!-------------------------------------------------------------------------------->
+    </div>
+
+ 
+    <script src="script.js"></script>
+    
+</body>
+</html>

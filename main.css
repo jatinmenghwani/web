@@ -1,0 +1,44 @@
+*{
+    background-color:white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#side{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    position: absolute;
+    margin-left: 35%;
+    margin-top: -10%;
+}
+#side{
+    position: absolute;
+}
+#part1{
+    border: 2px solid black;
+    margin-top: 10vh;
+    margin-left: 20vw;
+    width: 60vw;
+    height: 80vh;
+}
+#part1 h1{
+    margin-left: 40%;
+}
+#part1 .marker1 .button1{
+    position: absolute;
+    margin-top: 3%;
+    margin-left: 22%;
+}
+#part1 .marker1 .button2{
+    position: absolute;
+    margin-top: 3%;
+   margin-left: 35%;
+}
+#part1 .marker2 .nav1{
+    position: absolute;
+    margin-top: 10%;
+    margin-left: 20%;
+}
+#part1 .marker2 .nav2{
+    position: absolute;
+    margin-top: 10%;
+    margin-left: 39%;
+} 
